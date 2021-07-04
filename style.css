@@ -8,7 +8,7 @@ h1{
 .colour{
     color: rgb(243, 25, 25);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -37,4 +37,33 @@ section{
 }
 .hello{
     color: rgb(4, 30, 34);
+}
+.half-width{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 25px;
+    box-shadow:10px 10px 40px rgb(81, 25, 133) ;
+    border-radius: 5px;
+}
+   
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#wev-dev{
+    border-left:  7px solid;
+    border-image: linear-gradient(rgb(148, 148, 172),rgb(0, 153, 0));
+    border-image-slice: 1;
+}
+#experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+text-align: center;
 }
